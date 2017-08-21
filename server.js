@@ -92,9 +92,10 @@ var htmltemplate =
         </div>
     </body>
     
+    return htmltemplate;
 </html>
 ` 
-return htmltemplate ;
+
     
 
 app.get('/', function (req, res) {
