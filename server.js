@@ -12,7 +12,7 @@ var articles = {
  'article-Two': { },
  'article-Three': { }
 };
-    title : 'Article One ! Shruti Mallapadi' ,
+    title = 'Article One ! Shruti Mallapadi' ,
     heading : 'Article one',
     date : 'august 21 st 2017',
     content : ` <p>
