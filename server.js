@@ -56,7 +56,7 @@ var heading=data.heading;
 var content=data.content;
 
 }
-var htmltemplate = `
+var htmltemplate = 
 <html>
   <head>
         <title>
