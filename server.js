@@ -15,7 +15,7 @@ var articles = {
     title = 'Article One ! Shruti Mallapadi' ,
     heading = 'Article one',
     date  ='august 21 st 2017',
-    content : ` <p>
+    content = ` <p>
             This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
         </p>
         <p>
@@ -27,18 +27,18 @@ var articles = {
     
 },
 articleTwo = {
-    title : 'Article Two ! Shruti Mallapadi' ,
-    heading :'Article Two',
-    date : 'august 21 st 2017',
-    content : ` <p>
+    title = 'Article Two ! Shruti Mallapadi' ,
+    heading ='Article Two',
+    date = 'august 21 st 2017',
+    content = ` <p>
             This is the content for my second article.
     
 },
 articleThree = {
-title : 'Article Three ! Shruti Mallapadi' ,
-    heading :'Article Three',
-    date : 'august 21 st 2017',
-    content : ` <p>
+title = 'Article Three ! Shruti Mallapadi' ,
+    heading ='Article Three',
+    date = 'august 21 st 2017',
+    content = ` <p>
             This is the content for my Third article.
         </p>
 };
