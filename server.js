@@ -38,7 +38,7 @@ articleThree = {
 title = 'Article Three ! Shruti Mallapadi' ,
     heading ='Article Three',
     date = 'august 21 st 2017',
-    content = ` <p>
+    content = `<p>
             This is the content for my Third article.
         </p>`
 };
