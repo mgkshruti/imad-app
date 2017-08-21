@@ -41,7 +41,7 @@ title = 'Article Three ! Shruti Mallapadi' ,
     content = <p>
             This is the content for my Third article.
         </p>`
-};
+}
 }
 }
 function createTemplate (data)
