@@ -14,7 +14,7 @@ var articles = {
 };
     title = 'Article One ! Shruti Mallapadi' ,
     heading = 'Article one',
-    date : 'august 21 st 2017',
+    date : ='august 21 st 2017',
     content : ` <p>
             This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
         </p>
