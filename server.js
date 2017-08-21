@@ -43,7 +43,7 @@ title = 'Article Three ! Shruti Mallapadi' ,
         </p>`
 }
 
-function createTemplate(data)
+function CreateTemplate(data)
 {
 var title=data.title;
 var date=data.date;
