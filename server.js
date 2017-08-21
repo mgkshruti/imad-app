@@ -30,7 +30,7 @@ articleTwo = {
     title = 'Article Two ! Shruti Mallapadi' ,
     heading ='Article Two',
     date = 'august 21 st 2017'
-    content =<p>
+    content = <p>
             This is the content for my second article.
             </p> 
     
@@ -40,7 +40,7 @@ title = 'Article Three ! Shruti Mallapadi' ,
     heading ='Article Three',
     date = 'august 21 st 2017',
     content = <p>
-            This is the content for my Third article.
+            'This is the content for my Third article.'
         </p>
 }
 function CreateTemplate(data)
