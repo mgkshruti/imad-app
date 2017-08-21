@@ -40,9 +40,8 @@ title = 'Article Three ! Shruti Mallapadi' ,
     date = 'august 21 st 2017',
     content = <p>
             This is the content for my Third article.
-        </p>`
+        </p>
 }
-
 function CreateTemplate(data)
 {
 var title=data.title;
