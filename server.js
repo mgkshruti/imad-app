@@ -43,7 +43,6 @@ title = 'Article Three ! Shruti Mallapadi' ,
         </p>`
 }
 }
-}
 function createTemplate (data)
 {
 var title=data.title;
