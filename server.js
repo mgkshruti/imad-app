@@ -29,10 +29,10 @@ var articles = {
 articleTwo = {
     title = 'Article Two ! Shruti Mallapadi' ,
     heading ='Article Two',
-    date = 'august 21 st 2017',
-    content = <p>
+    date = 'august 21 st 2017'
+    content = `<p>
             This is the content for my second article.
-            </p>
+            </p>`
     
 },
 articleThree = {
