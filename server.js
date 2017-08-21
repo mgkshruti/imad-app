@@ -58,7 +58,7 @@ var content=data.content;
 }
 var htmltemplate = `
 <html>
-    <head>
+  <head>
         <title>
             $ {title}
         </title>
@@ -93,7 +93,7 @@ var htmltemplate = `
     </body>
     
 </html>
-`;
+` ;
 return htmltemplate
 
 app.get('/', function (req, res) {
