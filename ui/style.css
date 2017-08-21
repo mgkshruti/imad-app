@@ -22,7 +22,7 @@ body {
 
  .Container {
 max-width: 800px; 
-margin: center;
+margin: 0 auto;
 color:blue;
 font-family:sans-serif;
 padding-left:20px;
