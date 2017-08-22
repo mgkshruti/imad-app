@@ -1,21 +1,15 @@
 var express = require('express');
 var morgan = require('morgan');
-
-
 var path = require('path');
-
 var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-'article-One': { },
- 'article-Two': { },
- 'article-Three': { }
-};
-    title = 'Article One ! Shruti Mallapadi' ,
-    heading = 'Article one',
-    date  ='august 21 st 2017',
-    content = ` <p>
+'article-One': { 
+     title :'Article One ! Shruti Mallapadi' ,
+    heading : 'Article one',
+    date  : 'august 21 st 2017',
+    content : ` <p>
             This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
         </p>
         <p>
@@ -26,23 +20,24 @@ var articles = {
         </p>`
     
 },
-articleTwo = {
-    title = 'Article Two ! Shruti Mallapadi' ,
-    heading ='Article Two',
-    date = 'august 21 st 2017'
-    content = `p
+ 'article-Two' : {
+    title : 'Article Two ! Shruti Mallapadi' ,
+    heading :'Article Two',
+    date : 'august 21 st 2017',
+    content : `<p>
             This is the content for my second article.
-             
-    
+             </p>`
+
 },
-articleThree = {
-title = 'Article Three ! Shruti Mallapadi' ,
-    heading ='Article Three',
-    date = 'august 21 st 2017',
-    content =` <p>
+'articleThree' : {
+title : 'Article Three ! Shruti Mallapadi' ,
+heading :'Article Three',
+date :'august 21 st 2017',
+content :` <p>
             'This is the content for my Third article.'
-        </p>
+        </p>`
 }
+};
 function CreateTemplate(data)
 {
 var title=data.title;
@@ -50,7 +45,7 @@ var date=data.date;
 var heading=data.heading;
 var content=data.content;
 }
-var htmltemplate = 
+var htmltemplate = `
 <html>
   <head>
         <title>
@@ -69,7 +64,6 @@ var htmltemplate =
         </style>
     </head>
     <body>
-    
             <div class="container"></div>
         <div>
             <a href="/">HOME</a>
