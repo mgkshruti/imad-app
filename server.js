@@ -81,26 +81,25 @@ var htmltemplate = `
     </body>
    </html>
    `;
-   
     return htmltemplate;
-
- 
+    }
+    
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/articleName',function(req,res){
+app.get('/:articleName',function(req,res){
      res.send(createtemplate(articles[articlename]));
      var articleName = req.params.articleName;
      
 });
-app.get('/ui/style.css', function (req, res) {
+app.get('/ui/style.css', function(req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/main.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
-app.get('/ui/madi.png', function (req, res) {
+app.get('/ui/madi.png', function(req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 // Do not change port, otherwise your app won't run on IMAD servers
