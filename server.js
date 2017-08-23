@@ -122,7 +122,9 @@ app.get('/ui/madi.png', function(req, res) {
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
-app.get()
+app.get('/ui/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
+})
 
 var port = 80;
 app.listen(port, function () {
