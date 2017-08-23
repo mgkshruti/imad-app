@@ -64,25 +64,33 @@ var htmltemplate = `
         </style>
     </head>
     <body>
-            <div class="container"></div>
-        <div>
-            <a href="/">HOME</a>
-        </div>
-        <h3>
-          $ {heading}
-        </h3>
-        <div>
-             $ {date}
-        </div>
-       $ {content}
-        <div>
-            
-        </div>
-    </body>
-   </html>
-   `;
-    return htmltemplate;
-    }
+           <div class="container">
+              <div>
+                  <a href="/">Home</a>
+              </div>
+              <hr/>
+              <h3>
+         ${heading}
+              </h3>
+              <div>
+                  ${date.toDateString()}
+              </div>
+       ${content}
+              </div>
+              <hr/>
+              <h4>Comments</h4>
+              <div id="comment_form">
+              </div>
+              <div id="comments">
+                <center>Loading comments...</center>
+              </div>
+          </div>
+    <script type="text/javascript" src="/ui/article.js"></script>
+      </body>
+    </html>
+    `;
+    return htmlTemplate;
+}
    var counter=0;
    app.get('/counter',function (req,res)){
        counter=counter + 1;
